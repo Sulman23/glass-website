@@ -73,4 +73,35 @@ aside {
     background: linear-gradient(to right bottom,
     rgba(174, 217, 235, 0.1),
     rgba(160, 214, 238, 0.3));
+    
+}
+
+.search-title {
+    margin: 2rem;
+}
+
+.search-input {
+    padding: 0.5rem;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3));
+    border: none;
+    width: 50%;
+    margin-left: 2rem;
+    border-radius: 2rem;  
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5rem;
+    background-color: tomato;
+}
+
+.post {
+    display: flex;
+    background-color: turquoise;
+    margin: 2rem 0;
+    padding: 2rem;
 }
