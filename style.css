@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid red;
 }
 
 .glass {
@@ -23,7 +24,7 @@
     z-index: 2;
     backdrop-filter: blur(2rem);
     display: flex;
-    
+    border: 2px solid black;
 }
 
 .circle1,
@@ -58,7 +59,7 @@ aside {
     flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
-    
+    border: 2px solid green;
 }
 
 .subscribe {
@@ -73,7 +74,7 @@ aside {
     background: linear-gradient(to right bottom,
     rgba(174, 217, 235, 0.1),
     rgba(160, 214, 238, 0.3));
-    
+    border: 2px solid orange;
 }
 
 .search-title {
@@ -96,12 +97,12 @@ aside {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 5rem;
-    background-color: tomato;
+    border: 2px solid yellow;
 }
 
 .post {
     display: flex;
-    background-color: turquoise;
+    border: 2px solid brown;
     margin: 2rem 0;
     padding: 2rem;
 }
