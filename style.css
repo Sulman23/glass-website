@@ -58,7 +58,6 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     justify-content: space-evenly;
     border: 2px solid green;
 }
@@ -79,13 +78,16 @@ aside {
     font-size: 2rem;
     font-weight: lighter;
     margin: 0.5rem 0;
-
 }
 
 .tagline {
     font-size: 1.2rem;
 }
 
+.navigation {
+    width: 80%;
+    border: 1px solid red;
+}
 .navigation ul {
     list-style: none;
 }
@@ -94,11 +96,11 @@ aside {
     text-decoration: none;
     color: black;
     display: block;
-    background: rgb(255, 255, 255, 0.5);
     padding: 1rem;
     border-radius: 2rem;
     text-align: center;
     margin: 1rem;
+    background: rgb(255, 255, 255, 0.9);
     box-shadow: 0 1rem 2rem rgb(0 0 0 0.2);
 }
 
@@ -123,7 +125,14 @@ aside {
     padding: 0.4rem 0.9rem;
     border: none;
     margin-bottom: 0.5rem;
+    border:1px solid hotpink;
 }
+
+footer {
+    border: 1px solid red;
+    
+}
+
 .main-section {
     flex: 2;
     background: linear-gradient(to right bottom,
@@ -131,10 +140,16 @@ aside {
     rgba(160, 214, 238, 0.3));
     border-radius: 0 2rem 2rem 0;
     border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    border: 1px solid green;
 }
 
 .search-title {
-    margin: 2rem;
+    /* margin: 2rem; */
 }
 
 .search-input {
@@ -144,7 +159,7 @@ aside {
     rgba(255, 255, 255, 0.3));
     border: none;
     width: 50%;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     border-radius: 2rem;  
 }
 
@@ -152,7 +167,6 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 0 0.5rem;
     border: 2px solid yellow;
 }
 
@@ -160,8 +174,8 @@ aside {
     display: flex;
     justify-content:space-between;
     border: 2px solid brown;
-    margin: 1.5rem 0;
-    padding: 2rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
     background-color:rgb(255, 255, 255, 0.2);
     border-radius: 5rem;
 }
@@ -176,6 +190,7 @@ aside {
 
 .post-info {
     margin-left: 0.8rem;
+    border: 1px solid blueviolet;
 }
 
 .post-info h2 {

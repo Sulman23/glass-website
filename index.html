@@ -6,6 +6,8 @@
         <title>Glass Website</title>
         <!-- google fonts link-->
         <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet">
+        <!-- font owesome link -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet"/>
         <!-- custom style sheet -->
         <link href="./style.css" rel="stylesheet" />
     </head>
@@ -22,11 +24,11 @@
             <main class="glass">
                 <!-- Sidebar of Website start -->
                 <aside>
-                    <div class="brand"><!-- Logo Section-->
+                    <header class="brand"><!-- Logo Section-->
                         <img src="./images/logo.jpg" alt="logo image"/>
                         <h3 class="blog-title">My Blog</h3>
-                        <p class="tagline">this is Tech World</p>
-                    </div>
+                        <p class="tagline">This is Tech World</p>
+                    </header>
 
                     <!-- Navigation start -->
                     <nav class="navigation">
@@ -38,28 +40,34 @@
                     </nav>
                     <!-- Navigation end -->
 
-                    <!-- sidebar footer area start -->
+                    <!-- subscribe start -->
                     <div class="subscribe">
                         <h3>Subscribe for newsletter</h3>
-                        <input type="email" placeholder="Subscribe"/>
-                        <p>Copyright &copy; All rights Reserved 2021 
-                        Template is made by Suleman</p>
+                        <input type="email" placeholder="Enter your email address"/>
                     </div>
+                    <!-- subscribe  end -->
+                    
+                    <!-- sidebar footer area start -->
+                    <footer>
+                        <p>Copyright &copy; All rights Reserved 2021 
+                            Template is made by Suleman</p>
+                    </footer>
                     <!-- sidebar footer area end -->
 
                 </aside>
                 <!-- Sidebar of Website end -->
 
-                <!-- main blog section -->
+                <!-- main blog section start -->
                 <section class="main-section">
 
-                    <section><!-- top searchbar and title section -->
+                    <section class="search"><!-- top searchbar and title section -->
                         <h2 class="search-title">Search</h2>
-                        <input type="text" placeholder="Search here" class="search-input"/>
+                        <input class="search-input" type="text" placeholder="Search here" />
                     </section>
 
                     <!-- posts start -->
                     <div class="posts">
+
                         <div class="post"><!-- Single post start -->
                             <img src="./images/01.jpg" alt="Post image" />
                             <div class="post-info">
@@ -70,6 +78,7 @@
                                 <a href=""> Read more ...</a>
                             </div>
                         </div><!-- Single post end -->
+
                         <div class="post"><!-- Single post start -->
                             <img src="./images/02.jpg" alt="Post image" />
                             <div class="post-info">
@@ -80,6 +89,7 @@
                                 <a href=""> Read more ...</a>
                             </div>
                         </div><!-- Single post end -->
+
                         <div class="post"><!-- Single post start -->
                             <img src="./images/03.jpg" alt="Post image" />
                             <div class="post-info">
@@ -93,6 +103,7 @@
                     </div>
                     <!-- posts end -->
                 </section>
+                <!-- main blog section end -->
             </main>
             <!-- Cover the main Website Area end -->
         </main>
