@@ -52,23 +52,78 @@
 aside {
     background: linear-gradient(to right bottom,
                               rgb(255, 255, 255, 0.2),
-                             rgb(255, 255, 255, 0.1));
-    border-radius: 2rem 0 0 2rem;
+                             rgb(255, 255, 255, 0.5));
+    border-radius: 2rem;
     flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     justify-content: space-evenly;
     border: 2px solid green;
 }
 
-.subscribe {
-    color: white;
-    background: linear-gradient(to right bottom,
-    rgba(199, 75, 137, 0.1),
-    rgba(238, 160, 160, 0.3));
+.brand {
+    text-align: center;
 }
 
+.brand img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 0.4rem rgb(255, 255, 255, 0.7);
+}
+
+.blog-title {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin: 0.5rem 0;
+
+}
+
+.tagline {
+    font-size: 1.2rem;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    background: rgb(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 1rem;
+    box-shadow: 0 1rem 2rem rgb(0 0 0 0.2);
+}
+
+.navigation ul li a:hover {
+    background-color: rgb(255, 255, 255, 0.7);
+    color: gray;
+    transition: none;
+}
+.subscribe {
+    border:1px solid hotpink;
+    text-align: center;
+}
+
+.subscribe h3 {
+    color: rgba(0,0,0,.8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.subscribe input {
+    padding: 0.4rem 0.9rem;
+    border: none;
+    margin-bottom: 0.5rem;
+}
 .main-section {
     flex: 2;
     background: linear-gradient(to right bottom,

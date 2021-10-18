@@ -4,74 +4,92 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Glass Website</title>
+        <!-- google fonts link-->
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet">
+        <!-- custom style sheet -->
         <link href="./style.css" rel="stylesheet" />
     </head>
     <body>
         
-        <main class="main"><!-- Cover whole body -->
+        <!-- Cover whole body start -->
+        <main class="main">
             <!-- circle1 -->
             <div class="circle1"></div>
             <!-- circle2 -->
             <div class="circle2"></div>
-            <main class="glass"><!-- Cover the main Website Area -->
-                <!-- Sidebar of Website -->
+            
+            <!-- Cover the main Website Area Start -->
+            <main class="glass">
+                <!-- Sidebar of Website start -->
                 <aside>
-                    <div><!-- Logo Section-->
+                    <div class="brand"><!-- Logo Section-->
                         <img src="./images/avatar.png" alt="logo image"/>
-                        <h3>My Blog</h3>
-                        <p>this is Tech World</p>
+                        <h3 class="blog-title">My Blog</h3>
+                        <p class="tagline">this is Tech World</p>
                     </div>
-                    <nav><!-- Navigation -->
 
-                        <div class="links">
-                            <img src="" alt="" />
-                            <a href="#">Home</a>
-                        </div>
-                        <div>
-                            <img src="" alt="" />
-                            <a href="#">About</a>
-                        </div>
-                        <div>
-                            <img src="" alt="" />
-                            <a href="#">Contact</a>
-                        </div>
-                            
+                    <!-- Navigation start -->
+                    <nav class="navigation">
+                       <ul>
+                           <li><a href="">Home</a></li>
+                           <li><a href="">About us</a></li>
+                           <li><a href="">Contact us</a></li>
+                       </ul> 
                     </nav>
-                    <div class="subscribe"><!-- sidebar footer area -->
-                        <h3>subscribe for Newsletter</h3>
-                        <input type="email" />
-                        <p>Copyright &copy; All rights Reserved 2021</p>
+                    <!-- Navigation end -->
+
+                    <!-- sidebar footer area start -->
+                    <div class="subscribe">
+                        <h3>Subscribe for newsletter</h3>
+                        <input type="email" placeholder="Subscribe"/>
+                        <p>Copyright &copy; All rights Reserved 2021 
+                        Template is made by Suleman</p>
                     </div>
+                    <!-- sidebar footer area end -->
+
                 </aside>
+                <!-- Sidebar of Website end -->
 
                 <!-- main blog section -->
                 <section class="main-section">
+
                     <section><!-- top searchbar and title section -->
                         <h2 class="search-title">Search</h2>
                         <input type="text" placeholder="Search here" class="search-input"/>
                     </section>
-                    <div class="posts"><!-- posts -->
-                        <div class="post"><!-- Single post-->
+
+                    <!-- posts start -->
+                    <div class="posts">
+                        <div class="post"><!-- Single post start -->
                             <img src="" alt="Post image" />
-                            <h2>Post Title Here</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                            <a href=""> Read more ...</a>
-                        </div>
-                        <div class="post"><!-- Single post-->
+                            <div class="post-info">
+                                <h2>Post Title Here</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <a href=""> Read more ...</a>
+                            </div>
+                        </div><!-- Single post end -->
+                        <div class="post"><!-- Single post start -->
                             <img src="" alt="Post image" />
-                            <h2>Post Title Here</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                            <a href=""> Read more ...</a>
-                        </div>
-                        <div class="post"><!-- Single post-->
+                            <div class="post-info">
+                                <h2>Post Title Here</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <a href=""> Read more ...</a>
+                            </div>
+                        </div><!-- Single post end -->
+                        <div class="post"><!-- Single post start -->
                             <img src="" alt="Post image" />
-                            <h2>Post Title Here</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                            <a href=""> Read more ...</a>
-                        </div>
+                            <div class="post-info">
+                                <h2>Post Title Here</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <a href=""> Read more ...</a>
+                            </div>
+                        </div><!-- Single post end -->
                     </div>
+                    <!-- posts end -->
                 </section>
             </main>
+            <!-- Cover the main Website Area end -->
         </main>
+        <!-- Cover whole body end -->
     </body>
 </html>
