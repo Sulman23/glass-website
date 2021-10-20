@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main {
@@ -63,6 +64,8 @@ aside {
 
 .brand {
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 800;
 }
 
 .brand img {
@@ -125,6 +128,7 @@ aside {
     padding: 0.4rem 0.9rem;
     border: none;
     margin-bottom: 0.5rem;
+    outline: none;
     border:1px solid hotpink;
 }
 
@@ -135,7 +139,7 @@ aside {
 
 .main-section {
     flex: 2;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     display: flex;
     flex-direction: column;
     margin: 3rem;
@@ -143,9 +147,9 @@ aside {
 
 .search {
     /* border: 1px solid green; */
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    font-size: small;
 }
-
 .search-title {
     margin-bottom: 0.3rem;
 }
@@ -159,24 +163,25 @@ aside {
     width: 15rem;
     /* margin-left: 2rem; */
     border-radius: 2rem;  
+    outline: none;
 }
 
 .posts {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .post {
     display: flex;
     justify-content: space-between;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     margin-bottom: 1rem;
     padding: 1rem;
     background: linear-gradient(
     to left top,
-    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2),
     rgba(255, 255, 255, 0.5)
   ); 
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);  
@@ -187,21 +192,27 @@ aside {
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
-    object-fit: fill;
+    margin: 0 0.5rem;
+    object-fit: cover;
     box-shadow: 0 0 0 0.3rem rgb(255, 255, 255, 0.7);
 }
 
 .post-info {
     margin-left: 0.8rem;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
 }
 
 .post-info h2 {
     margin-bottom: 0.3rem;
-    color: rgb(59, 54, 54)
+    color: rgb(59, 54, 54);
+    font-size: medium;
+}
+
+.post-info p {
+    font-size: small;
 }
 
 .post-info a {
     text-decoration: none;
-    color: gray;
+    color: rgb(43, 41, 41);
 }
