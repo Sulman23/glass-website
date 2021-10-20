@@ -58,12 +58,24 @@
     rgb(255, 255, 255, 0.7),
     rgb(255, 255, 255, 0.3));
     border-radius: 5%;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(40%);
+    }
 }
 
 .block1 {
     position: absolute;
     bottom: 20%;
     right: 3%;
+    background-color: chartreuse;
 }
 
 .block2 {
@@ -77,6 +89,7 @@
     position: absolute;
     top: 5%;
     left: 3%;
+    background-color: darkmagenta;
 }
 
 
