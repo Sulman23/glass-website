@@ -37,7 +37,7 @@
     rgb(255, 255, 255, 0.7),
     rgb(255, 255, 255, 0.3));
     border-radius: 50%;
-    animation: circle-animate linear infinite 10s;
+    animation: circle-animate linear infinite 5s;
 }
 
 .circle1 {
@@ -89,7 +89,7 @@
     rgb(255, 255, 255, 0.7),
     rgb(255, 255, 255, 0.3));
     border-radius: 5%;
-    animation: animate 10s linear infinite;
+    animation: animate 7s linear infinite;
 }
 
 @keyframes animate {
