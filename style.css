@@ -29,8 +29,8 @@
 
 .circle1,
 .circle2 {
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     background: linear-gradient(to right bottom,
     rgb(255, 255, 255, 0.7),
     rgb(255, 255, 255, 0.3));
@@ -45,9 +45,40 @@
 
 .circle2 {
     position: absolute;
-    bottom: 5%;
+    bottom: 2%;
     left: 5%;
 }
+
+.block1,
+.block2,
+.block3 {
+    width: 5rem;
+    height: 5rem;
+    background: linear-gradient(to right bottom,
+    rgb(255, 255, 255, 0.7),
+    rgb(255, 255, 255, 0.3));
+    border-radius: 5%;
+}
+
+.block1 {
+    position: absolute;
+    bottom: 20%;
+    right: 3%;
+}
+
+.block2 {
+    position: absolute;
+   background-color: red;
+    left: 8%;
+}
+
+
+.block3 {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
 
 aside {
     background: linear-gradient(to right bottom,
@@ -210,9 +241,16 @@ aside {
 
 .post-info p {
     font-size: small;
+    margin-bottom: 0.5rem;
+    color: rgb(71, 70, 70);
 }
 
 .post-info a {
     text-decoration: none;
-    color: rgb(43, 41, 41);
+    font-size: small;
+    color:black;
+}
+
+.post-info i {
+    font-size: x-small;
 }
