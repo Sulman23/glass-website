@@ -42,15 +42,15 @@
 
 .circle1 {
     position: absolute;
-    top: 8%;
-    right: 20%;
+    top: 6%;
+    right: 18%;
     background-color: rgb(2, 221, 250);
 }
 
 .circle2 {
     position: absolute;
-    bottom: 8%;
-    left: 15%;
+    bottom: 6%;
+    left: 12%;
     background-color: deeppink;
 }
 /* 
@@ -67,7 +67,7 @@
     bottom: 5%;
     left: 12%;
     background-color: deeppink;
-} */
+}  */
 
 @keyframes circle-animate {
     0%, 100% {
@@ -87,7 +87,7 @@
     height: 5rem;
     background: linear-gradient(to right bottom,
     rgb(255, 255, 255, 0.7),
-    rgb(255, 255, 255, 0.3));
+    rgb(255, 255, 255, 0.1));
     border-radius: 5%;
     animation: animate 7s linear infinite;
 }
@@ -98,7 +98,7 @@
     }
 
     50% {
-        transform: translateY(40%);
+        transform: translateY(60%);
     }
 }
 
@@ -184,7 +184,7 @@ aside {
     text-decoration: none;
     color: black;
     display: block;
-    padding: 1rem;
+    padding: 0.7rem;
     border-radius: 2rem;
     text-align: center;
     margin: 1rem;
